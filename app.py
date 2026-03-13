@@ -9,7 +9,7 @@ import pdfplumber
 app = Flask(__name__)
 
 # Load trained model
-model = joblib.load("model.pkl")
+model = joblib.load("model(1).pkl")
 
 
 # -------- Extract Text From PDF --------
@@ -113,4 +113,5 @@ def upload():
 
 
 if __name__ == "__main__":
+
     app.run(debug=False, use_reloader=False)
