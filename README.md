@@ -1,2 +1,2 @@
 # AI-resume-screening-system
-AI based Resume zScreening using Machine Learning 
+AI based Resume Screening using Machine Learning 
